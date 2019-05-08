@@ -1,5 +1,6 @@
 # news-ticker
 > 文字跑马灯
+![](./newstickr.gif)
 
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
