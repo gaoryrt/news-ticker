@@ -1,11 +1,12 @@
 {
   "name": "news-ticker",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "sideEffects": [
     "*.css"
   ],
   "description": "news ticker in your page!",
   "author": "gaoryrt",
+  "main": "dist/newsTicker.js",
   "license": "MIT",
   "scripts": {
     "build": "npx webpack --config ./public/webpack.prod.js",
@@ -19,6 +20,7 @@
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.0.2",
     "clean-webpack-plugin": "^0.1.19",
+    "core-js": "2",
     "css-loader": "^1.0.0",
     "dayjs": "^1.7.5",
     "eslint": "^5.6.0",
@@ -46,7 +48,6 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "core-js": "2",
     "gelerator": "^2.1.1"
   },
   "browserslist": [
