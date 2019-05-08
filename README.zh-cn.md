@@ -18,21 +18,26 @@ ntInst.add(textParam)
 **`options`**
 `对象`
 
+
 `options.el`
 `元素`
 文字跑马灯将在这个元素中展示
+
 
 `options.textArr`（可选，默认为`[]`）
 `字符串数组`
 文字跑马灯显示的文字
 
+
 `options.speed`（可选，默认为`2`）
 `数字`
 文字跑马灯滚动的速度，单位是 px
 
+
 `options.onLeave`（可选）
 `方法`
 一段文字滚出时会调用这个方法，传入参数为这个滚出的文字元素
+
 
 **`textParam`**
 `字符串数组` 或 `字符串`

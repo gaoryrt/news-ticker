@@ -18,25 +18,31 @@ ntInst.add(textParam)
 **`options`**
 `Object`
 
+
 `options.el`
 `Element`
 news ticker would display in this el
+
 
 `options.textArr`（optional, default is `[]`）
 `Array of String`
 string to be shown in news ticker
 
+
 `options.speed`（optional, default is `2`）
 `Number`
 speed of scrolling, in `px`
+
 
 `options.onLeave`（optional）
 `Function`
 would trigger when some text scroll out of the screen
 
+
 **`textParam`**
 `Array of String` or `String`
 push some string to the end of Queue
+
 
 ## How to use
 ### install

@@ -7,7 +7,7 @@ const isStrArr = any => {
   return any.every(isStr)
 }
 
-export default class NewsTicker {
+export class NewsTicker {
   constructor({
     el,
     textArr = [],
@@ -63,3 +63,5 @@ export default class NewsTicker {
     else if (isStrArr(textAny)) textAny.forEach(text => this.textArr.push(text))
   }
 }
+
+export default NewsTicker

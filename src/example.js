@@ -1,4 +1,4 @@
-import NewsTicker from './newsTicker'
+import NewsTicker from '../dist/newsTicker'
 
 const nt = new NewsTicker({
   el: document.querySelector('.line'),
