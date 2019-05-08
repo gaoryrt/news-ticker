@@ -1,12 +1,10 @@
 # news-ticker
 > news ticker in your browser
 
-![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js)
-![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js?compression=gzip)
+![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
+![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
 
 English | [简体中文](./README.zh-cn.md)
-
-<!-- [try it on codepen]() -->
 
 ## Syntax
 ```js

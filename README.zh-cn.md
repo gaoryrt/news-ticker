@@ -1,12 +1,10 @@
 # news-ticker
 > 文字跑马灯
 
-![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js)
-![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js?compression=gzip)
+![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
+![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
 
 [English](./README.md) | 简体中文
-
-<!-- [在 codepen 上试试 demo]() -->
 
 ## 语法
 ```js
