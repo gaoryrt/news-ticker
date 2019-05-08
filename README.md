@@ -1,5 +1,4 @@
 # news-ticker
-> news ticker in your browser
 ![](./newstickr.gif)
 
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
