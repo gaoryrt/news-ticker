@@ -1,53 +1,39 @@
 # news-ticker
-![](./newstickr.gif)
-
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
 
 a small news-ticker scroll bar for browser
 
+![](./newstickr.gif)
+
 English | [简体中文](./README.zh-cn.md)
 
 ## Syntax
 ```js
-const ntInst = new NewsTicker(options)
-ntInst.add(textParam)
+const ntInst = new NewsTicker({
+  el: document.querySelector('.bar'),
+  // element to contain the news ticker
+
+  textArr: [],
+  // OPTIONAL, string to be shown in news ticker
+
+  speed: 2,
+  // OPTIONAL, number of scrolling speed, in `px`
+
+  onLeave: () => {}
+  // OPTIONAL, function to be trigger when some text scroll out of the screen
+})
+
+ntInst.add('d')
+ntInst.add(['e', 'f'])
+// push some string to the end of Queue
 ```
-
-### Parameters
-**`options`**
-`Object`
-
-
-`options.el`
-`Element`
-news ticker would display in this el
-
-
-`options.textArr`（optional, default is `[]`）
-`Array of String`
-string to be shown in news ticker
-
-
-`options.speed`（optional, default is `2`）
-`Number`
-speed of scrolling, in `px`
-
-
-`options.onLeave`（optional）
-`Function`
-would trigger when some text scroll out of the screen
-
-
-**`textParam`**
-`Array of String` or `String`
-push some string to the end of Queue
-
 
 ## How to use
 ### install
+`yarn add news-ticker` or  
 [![NPM](https://nodei.co/npm/news-ticker.png?compact=true)](https://nodei.co/npm/news-ticker/)
-or `yarn add news-ticker`
+
 
 ### import
 ```javascript

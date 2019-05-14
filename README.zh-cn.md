@@ -1,47 +1,33 @@
 # news-ticker
-![](./newstickr.gif)
-
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
 
 为浏览器加上新闻跑马灯
 
+![](./newstickr.gif)
+
 [English](./README.md) | 简体中文
 
 ## 语法
 ```js
-const ntInst = new NewsTicker(options)
-ntInst.add(textParam)
+const ntInst = new NewsTicker({
+  el: document.querySelector('.bar'),
+  // 文字跑马灯将在这个元素中展示
+
+  textArr: [],
+  // 可选，文字跑马灯显示的文字
+
+  speed: 2,
+  // 可选，文字跑马灯滚动的速度，单位是 px
+
+  onLeave: () => {}
+  // 可选，一段文字滚出时会调用这个方法，传入参数为这个滚出的文字元素
+})
+
+ntInst.add('d')
+ntInst.add(['e', 'f'])
+// 为实例新增文字，新添加的文字将排在最后滚动播出
 ```
-
-### 参数详解
-**`options`**
-`对象`
-
-
-`options.el`
-`元素`
-文字跑马灯将在这个元素中展示
-
-
-`options.textArr`（可选，默认为`[]`）
-`字符串数组`
-文字跑马灯显示的文字
-
-
-`options.speed`（可选，默认为`2`）
-`数字`
-文字跑马灯滚动的速度，单位是 px
-
-
-`options.onLeave`（可选）
-`方法`
-一段文字滚出时会调用这个方法，传入参数为这个滚出的文字元素
-
-
-**`textParam`**
-`字符串数组` 或 `字符串`
-为实例新增文字，新添加的文字将排在最后滚动播出
 
 ## 如何使用
 ### 安装
