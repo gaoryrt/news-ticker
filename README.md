@@ -4,6 +4,8 @@
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
 
+a small news-ticker scroll bar for browser
+
 English | [简体中文](./README.zh-cn.md)
 
 ## Syntax
@@ -58,6 +60,18 @@ const nt = new NewsTicker({
   el: $('.line')
 })
 nt.add('hello world')
+```
+
+### css
+```
+.line {
+  background: #282828
+}
+.line div {
+  color: #FFC324;
+  line-height: 28px;
+  height: 28px;
+}
 ```
 
 ## License

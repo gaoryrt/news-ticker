@@ -4,6 +4,8 @@
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg)
 ![](https://img.badgesize.io/gaoryrt/news-ticker/master/dist/newsTicker.js.svg?compression=gzip)
 
+为浏览器加上新闻跑马灯
+
 [English](./README.md) | 简体中文
 
 ## 语法
@@ -57,6 +59,18 @@ const nt = new NewsTicker({
   el: $('.line')
 })
 nt.add('hello world')
+```
+
+### 样式
+```
+.line {
+  background: #282828
+}
+.line div {
+  color: #FFC324;
+  line-height: 28px;
+  height: 28px;
+}
 ```
 
 ## License
