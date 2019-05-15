@@ -8,6 +8,8 @@
 
 [English](./README.md) | 简体中文
 
+[在 Codepan 上试一试](https://codepan.net/gist/2cd3af9c900a4fce989b0440a26ad434)
+
 ## 语法
 ```js
 const ntInst = new NewsTicker({
