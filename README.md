@@ -76,3 +76,7 @@ MIT
 3. Commit your changes: `git commit -am 'ADD SOME FEATURE'`
 4. Push to the branch: `git push origin MY-NEW-FEATURE`
 5. Submit a pull request :D
+
+# donate
+[![](https://cdn.buymeacoffee.com/buttons/default-white.png)](https://www.buymeacoffee.com/pT2Y5iN)
+![](https://jungle.fm/assets/donate.jpg)
