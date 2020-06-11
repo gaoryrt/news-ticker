@@ -8,7 +8,7 @@ a small news-ticker scroll bar for browser
 
 English | [简体中文](./README.zh-cn.md)
 
-[Demo on Codepan](https://codepan.net/gist/2cd3af9c900a4fce989b0440a26ad434)
+[Demo on Codesandbox](https://codesandbox.io/s/loving-shannon-tjwfs)
 
 ## Syntax
 ```js
